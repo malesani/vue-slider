@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url(../img/game-of-thrones-zoom-background-cover.jpg);
+}
+
+
+.container{
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container .cont-dati{
+  width: 75%;
+  border: solid black;
+}
+
+.container .cont-dati .imgs, img{
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.circles{
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+}
+
+
+.fa-circle{
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.fa-chevron-left,.fa-chevron-right{
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+}
+
+.fa-chevron-left{
+  left: 5%;
+}
+
+.fa-chevron-right{
+  right: 5%;
+}
+
+.active{
+  color: rgb(89, 150, 170);
+}
